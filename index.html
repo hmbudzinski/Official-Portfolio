@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -17,24 +17,22 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
             <a class="navbar-brand py-2 px-2" id="title">Hayley M. Budzinski</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-chevron-down"></i>                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa fa-chevron-down"></i>                    
+                    <!-- <span class="navbar-toggler-icon"></span> -->
                 </button>
             <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Intro</a>
+                        <a class="nav-link" id="about" href="#">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" id="experience" href="#">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" id="portfolio" href="#">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" id="contact" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,7 +46,7 @@
             </div>
             <div class="row">
                 <div class="col-md">
-                    <img src="./Assets/Me.jpg" class="img-fluid img-thumbnail float-left mr-2" alt="Responsive image" width=300>
+                    <img src="./Assets/Me2.jpg" class="img-fluid img-thumbnail float-left mr-2" alt="Responsive image" width=300>
                     <p class="text-justify">My name is Hayley Budzinski. I was born and raised in Anchorage, Alaska, and went to college at Colorado State University where I studied International Studies and International Development.</p>
                     <p class="text-justify">After College, I traveled around Europe for eight months and worked in hostels and pubs. Following that trip, I went back to Alaska for six months and worked in a restaurant to save up some money before moving to Dublin, Ireland for
                         a year.</p>
@@ -73,6 +71,14 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
+                        <img src="./Assets/lego.jpg" class="d-block w-100" alt="lego buddies" class="portfolioimage" width="200">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4><a class="nav-link w-100 text-white" href="https://hmbudzinski.github.io/ProjectTwo/" target="_blank">Nerdify</a></h4>
+                            <p>A place for nerds by nerds.</p>
+                            <h6><a class="nav-link w-100 text-white" href="https://git.heroku.com/calm-reef-29496.git" target="_blank">Checkout the deployed Heroku app.</a></h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
                         <img src="./Assets/food.jpg" class="d-block w-100" alt="succulents" class="portfolioimage" width="200">
                         <div class="carousel-caption d-none d-md-block">
                             <h4><a class="nav-link w-100 text-white" href="https://hmbudzinski.github.io/OfficialProjectOne/" target="_blank">Satisfy Your Craving</a></h4>
@@ -80,7 +86,6 @@
                             <h6><a class="nav-link w-100 text-white" href="https://github.com/hmbudzinski/OfficialProjectOne" target="_blank">Checkout the Github Repo</a></h6>
                         </div>
                     </div>
-
                     <div class="carousel-item">
                         <img src="./Assets/lock.jpg" class="d-block w-100" alt="succulents" class="portfolioimage" width="200">
                         <div class="carousel-caption d-none d-md-block">
@@ -89,8 +94,7 @@
                             <h6><a class="nav-link w-100 text-white" href="https://github.com/hmbudzinski/Password-Generator" target="_blank">Checkout the Github Repo</a></h6>
                         </div>
                     </div>
-
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img src="./Assets/notebook.jpg" class="d-block w-100" alt="succulents" class="portfolioimage" width="200">
                         <div class="carousel-caption d-none d-md-block">
                             <h5><a class="nav-link w-100 text-white" href="https://hmbudzinski.github.io/Calendar/" target="_blank">Daily Scheduler</a></h5>
@@ -99,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img src="./Assets/burger.jpg" class="d-block w-100" alt="burger" class="portfolioimage" width="200">
                         <div class="carousel-caption d-none d-md-block">
                             <h5><a class="nav-link w-100 text-white" href="https://glacial-meadow-79407.herokuapp.com/" target="_blank">Burger Tracker</a></h5>
@@ -118,7 +122,6 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-
             </div>
         </div>
         <br></br>
@@ -141,7 +144,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" id="sendInfo" class="btn btn-primary">Submit</button>
             </form>
         </div>
 
@@ -150,6 +153,7 @@
         </div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="./contact.js"></script>
 </body>
 
 </html>
