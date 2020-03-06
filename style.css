@@ -1,10 +1,11 @@
 .navbar {
     border-bottom: solid 5px #acacac;
-    font-family: 'Alegreya Sans', sans-serif;
-    height: 120px;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
     display: block;
     text-align: center;
     width: 100%;
+    /* position: fixed; */
 }
 
 #navbarNav {
@@ -14,14 +15,23 @@
 
 #title {
     color: #4173b4;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: xx-large;
     display: block;
 }
 
+.h2 {
+    color: #b1b1b1;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h2 {
     color: #4173b4;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container1 {
@@ -39,6 +49,12 @@ h2 {
 .container2 {
     height: auto;
     width: 100%;
+}
+
+.container3 {
+    height: auto;
+    width: 100%;
+    text-align: center;
 }
 
 footer {
